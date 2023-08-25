@@ -244,7 +244,7 @@ body {
  
 #errorMessage {
     color: red;
-    font-size: 20px;
+    font-size: 1vw;
     margin-top: 5px;
     font-family: Tahoma;
 
@@ -331,7 +331,7 @@ body {
       }
       #userInfo{
     width: 30%;
-    margin: 130px auto; 
+    margin: 1vw auto; 
     border-collapse: collapse;
     text-align: center;
     background-color: white;
@@ -349,10 +349,10 @@ body {
 
   @media (max-width: 768px) {
     .buttons button {
-        font-size: 5vw; /* Adjust the font size as needed */
+        font-size: 5vw; 
     }
     .container h1 {
-        font-size: 4vw; /* Responsive font size */
+        font-size: 4vw; 
     
     }
     .container h2{
@@ -382,6 +382,10 @@ body {
       .levelbuttons button {
         font-size: 2vw;
      
+    }
+    #errorMessage {
+      font-size: 3vw;
+  
     }
 }
      
